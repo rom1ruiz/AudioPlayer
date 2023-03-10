@@ -1,0 +1,145 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fast_forward.png" />
+    <None Remove="fast_forwardL.png" />
+    <None Remove="icons\fast_forward.png" />
+    <None Remove="icons\fast_forwardL.png" />
+    <None Remove="icons\forward_hover.png" />
+    <None Remove="icons\music.png" />
+    <None Remove="icons\open.png" />
+    <None Remove="icons\openL.png" />
+    <None Remove="icons\open_hover.png" />
+    <None Remove="icons\open_hoverL.png" />
+    <None Remove="icons\pause.png" />
+    <None Remove="icons\pauseL.png" />
+    <None Remove="icons\pause_hover.png" />
+    <None Remove="icons\play_arrow.png" />
+    <None Remove="icons\play_arrowL.png" />
+    <None Remove="icons\play_arrow_hover.png" />
+    <None Remove="icons\stop.png" />
+    <None Remove="icons\stopL.png" />
+    <None Remove="icons\stop_hover.png" />
+    <None Remove="icons\volume_downL.png" />
+    <None Remove="icons\volume_upL.png" />
+    <None Remove="music.png" />
+    <None Remove="open.png" />
+    <None Remove="openL.png" />
+    <None Remove="open_hover.png" />
+    <None Remove="open_hoverL.png" />
+    <None Remove="pause.png" />
+    <None Remove="pauseL.png" />
+    <None Remove="pause_hover.png" />
+    <None Remove="play_arrow.png" />
+    <None Remove="play_arrowL.png" />
+    <None Remove="play_arrow_hover.png" />
+    <None Remove="stop.png" />
+    <None Remove="stopL.png" />
+    <None Remove="stop_hover.png" />
+    <None Remove="volume_downL.png" />
+    <None Remove="volume_upL.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="fast_forward.png" />
+    <Resource Include="fast_forwardL.png" />
+    <Content Include="icons\fast_forward.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\fast_forwardL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\forward_hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\music.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\open.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\openL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\open_hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\open_hoverL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\pause.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\pauseL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\pause_hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="icons\play_arrow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\play_arrowL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\play_arrow_hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\stop.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\stopL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\stop_hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\volume_downL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="icons\volume_upL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="music.png" />
+    <Resource Include="openL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="open_hoverL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pause.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="pauseL.png" />
+    <Resource Include="pause_hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="play_arrow.png" />
+    <Resource Include="play_arrowL.png" />
+    <Resource Include="play_arrow_hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="stop.png" />
+    <Resource Include="stopL.png" />
+    <Resource Include="stop_hover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="volume_downL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="volume_upL.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
